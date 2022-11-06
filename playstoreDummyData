@@ -1,0 +1,89 @@
+val appCat1 = listOf(
+        AppModel(
+            "Adobe XD",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Adobe_XD_CC_icon.svg/1200px-Adobe_XD_CC_icon.svg.png",
+            "4.2"
+        ),
+        AppModel(
+            "Google Tasks",
+            "https://play-lh.googleusercontent.com/pjUulZ-Vdo7qPKxk3IRhnk8SORPlgSydSyYEjm7fGcoXO8wDyYisWXwQqEjMryZ_sqK2",
+            "4.6"
+        ),
+        AppModel(
+            "Google Lens",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Google_Lens_-_new_logo.png/768px-Google_Lens_-_new_logo.png",
+            "4.5"
+        ),
+        AppModel(
+            "Google Analytics",
+            "https://logos-world.net/wp-content/uploads/2021/02/Google-Analytics-Emblem.png",
+            "4.2"
+        ),
+        AppModel(
+            "Google Fit",
+            "https://gstatic.com/images/branding/product/1x/gfit_512dp.png",
+            "4.3"
+        ),
+    )
+
+    val appCat2 = listOf(
+        AppModel(
+            "inDrive",
+            "https://play-lh.googleusercontent.com/xCJ6Mf_zjRLSzLfnHj0xe8gcdSLvE0LcszosTsCNzprlf0oLfPr4Ikewq1CcGBpisfo",
+            "4.2"
+        ),
+        AppModel(
+            "Whatsapp",
+            "https://www.freepnglogos.com/uploads/whatsapp-logo-png-hd-2.png",
+            "4.6"
+        ),
+        AppModel(
+            "foodpanda",
+            "https://play-lh.googleusercontent.com/1keEOkk2GrxZpaRH73-vDqpAXhJNU9tbP5mfk82X6YxH8EhnU2JPOb5w1FLUJiqkEg",
+            "4.5"
+        ),
+        AppModel(
+            "Cricket League",
+            "https://static.vecteezy.com/system/resources/previews/000/365/307/original/cricket-logo-vector.jpg",
+            "4.2"
+        ),
+        AppModel(
+            "Easypaisa",
+            "https://play-lh.googleusercontent.com/uQULm-1ktLYWr6_we1zlOoZmp6AGXcfugF3kjhRwAxnQ1JZhe20BSJBKhFyHnKgcwA",
+            "4.3"
+        ),
+    )
+
+    val appCat3 = listOf(
+        AppModel(
+            "Microsoft Office",
+            "https://cdn.icon-icons.com/icons2/1156/PNG/512/1486565573-microsoft-office_81557.png",
+            "4.2"
+        ),
+        AppModel(
+            "OctaFX",
+            "https://play-lh.googleusercontent.com/Andj-7XevaEn8myJvkt4JWwKlRU4wAmub6NstAB5aa4lqbknM9b_dIPUx5JV_ImgvZo",
+            "4.6"
+        ),
+        AppModel(
+            "PUBG MOBILE",
+            "https://play-lh.googleusercontent.com/JRd05pyBH41qjgsJuWduRJpDeZG0Hnb0yjf2nWqO7VaGKL10-G5UIygxED-WNOc3pg",
+            "4.5"
+        ),
+        AppModel(
+            "Spotify",
+            "https://www.freepnglogos.com/uploads/spotify-logo-png/spotify-icon-green-logo-8.png",
+            "4.2"
+        ),
+        AppModel(
+            "Clash of Clans",
+            "https://play-lh.googleusercontent.com/JMNWaZel_qg6qj8T0bjX5OeLvXdka4hxzT_rsSVe5qQWHg798GmJcZetlQYm9-VlTsk",
+            "4.3"
+        ),
+    )
+
+    val list = listOf(
+        AppCategory("Based on your recent activity", appCat1),
+        AppCategory("Suggested for you", appCat2),
+        AppCategory("Recommended for you", appCat3),
+    )
